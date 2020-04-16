@@ -1,0 +1,118 @@
+/**
+ *
+ *  Use is subject to license terms.
+ *  the following codes were written for academic purposes and is not subject to copyright, however any improvements made to
+ *  the code, the owner must be informed. whatsapp 0706197445
+ *
+ *
+ *
+  *
+  *
+  *
+  *
+  *
+  *
+  *
+  *
+  *
+  *
+  *
+  *
+  *
+  *
+  *
+  *
+  *
+  *
+ *
+ *
+ */
+/**
+ *
+ * @author kelli
+ */
+.root{
+-fx-background-image: url(image.jpg);
+
+-fx-background-size: cover;-fx-background-color: linear-gradient(to right bottom, rgba(0 ,0, 0, 0.72) , rgba(0, 0, 0, 1));
+}
+.sudoku_box{
+-fx-padding: 20px;
+
+}
+.main_row{
+
+
+}
+.paragraphs{
+    -fx-font-size: 20px;
+    -fx-text-fill: white;
+}
+.menuButton{
+-fx-text-fill: black;
+
+-fx-font-size: 30px;
+-fx-background-color:linear-gradient(to right bottom, rgba(0, 0, 0, 0) ,rgba(22, 179, 12, 0.72), rgba(17, 121, 10, 0.82),  rgba(14, 84, 10, 0.92), rgba(7, 70, 3, 0.97));
+-fx-margin-top: 30px;
+-fx-border-color: rgba(0,0,0,0);
+}
+.menuButton:hover{
+-fx-font-size: 33px;
+}
+.usedNumber{
+-fx-background-color: linear-gradient(to right bottom ,rgba(22, 179, 12, 0.72), rgba(17, 121, 10, 0.82),  rgba(14, 84, 10, 0.92));
+-fx-color: white;
+-fx-margin: 2px;
+-fx-border-color: rgba(0,0,0,0);
+-fx-border-radius: 12px;
+-fx-font-size: 20px;
+-fx-text-fill: red;
+-fx-font-weight: bold;
+}
+.buttonKeys{
+-fx-background-color: linear-gradient(to right bottom ,rgba(22, 179, 12, 0.72), rgba(17, 121, 10, 0.82),  rgba(14, 84, 10, 0.92));
+-fx-color: white;
+-fx-margin: 2px;
+-fx-border-color: rgba(0,0,0,0);
+-fx-border-radius: 12px;
+-fx-font-size: 20px;
+-fx-text-fill: white;
+-fx-font-weight: bold;
+}
+.buttonKeys:hover{
+-fx-background-color: linear-gradient(to right bottom ,rgba(22, 179, 12, 1.2), rgba(17, 121, 10, 1.4),  rgba(14, 84, 10, 1.5));
+}
+
+.finalButtonKeys{
+-fx-background-color: linear-gradient(to right bottom ,rgba(22, 179, 12, 0.72), rgba(17, 121, 10, 0.82),  rgba(14, 84, 10, 0.92));
+-fx-color: white;
+-fx-margin: 2px;
+-fx-border-color: rgba(0,0,0,0);
+-fx-border-radius: 12px;
+-fx-font-size: 20px;
+-fx-text-fill: yellow;
+-fx-font-weight: bold;
+}
+.cellGroup{
+    -fx-padding: 4px;
+	-fx-margin: 8px;
+-fx-border-color: rgba(0,0,0,0);
+
+}
+.title{
+    -fx-font-size: 60px;
+}
+.exit{
+
+-fx-text-fill: #ffffff91;
+
+-fx-font-size: 30px;
+-fx-background-color:linear-gradient(to right bottom, rgba(0, 0, 0, 0) ,rgba(222, 14, 4, 0.5), rgba(189, 17, 9, 0.10),  rgba(144, 16, 10, 0.20), rgba(111, 7, 2, 0.40));
+-fx-margin-top: 30px;
+-fx-border-color: rgba(0,0,0,0);
+}
+.exit:hover{
+-fx-font-size: 35px;
+-fx-text-fill: white;
+-fx-background-color:linear-gradient(to right bottom, rgba(0, 0, 0, 1) ,rgba(222, 14, 4, 1), rgba(189, 17, 9, 1),  rgba(144, 16, 10, 1), rgba(111, 7, 2, 1));
+}
